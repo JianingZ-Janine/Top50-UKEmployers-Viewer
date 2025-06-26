@@ -2,6 +2,10 @@
 
 This website provides information about The Times Top 50 Employers for Gender Equality in the UK, along with curated career resources for job seekers. It is designed to help users explore leading employers, prepare for job applications, and access useful insights and events relevant to the UK job market.
 
+# Live Website
+
+Access the website here: [https://jianingz-janine.github.io/Top50-UKEmployers-Viewer/](https://jianingz-janine.github.io/Top50-UKEmployers-Viewer/)
+
 ## Purpose
 
 - **Showcase Top Employers:** View detailed information about organizations recognized for their commitment to gender equality, including company profiles, LinkedIn pages, career websites, and Edinburgh office locations.

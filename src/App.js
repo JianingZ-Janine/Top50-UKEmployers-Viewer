@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import CompanyInfo from './CompanyInfo';
-import BehaviorQuestions from './BehaviorQuestions';
+import BehaviorQuestions from './BehaviorQuestions'; // Corrected import path
 import Insights from './Insights';
 import Events from './Events';
 import About from './About';
