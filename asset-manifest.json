@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Top50-UKEmployers-Viewer/static/css/main.1be16475.css",
+    "main.js": "/Top50-UKEmployers-Viewer/static/js/main.95edc85e.js",
+    "static/js/453.b030b110.chunk.js": "/Top50-UKEmployers-Viewer/static/js/453.b030b110.chunk.js",
+    "index.html": "/Top50-UKEmployers-Viewer/index.html",
+    "main.1be16475.css.map": "/Top50-UKEmployers-Viewer/static/css/main.1be16475.css.map",
+    "main.95edc85e.js.map": "/Top50-UKEmployers-Viewer/static/js/main.95edc85e.js.map",
+    "453.b030b110.chunk.js.map": "/Top50-UKEmployers-Viewer/static/js/453.b030b110.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1be16475.css",
+    "static/js/main.95edc85e.js"
+  ]
+}
