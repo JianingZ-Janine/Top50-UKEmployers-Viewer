@@ -1,20 +1,31 @@
-
 import React from 'react';
 
 function About() {
   return (
-    <div className="about-container">
-      <h2>About Us / Contact Information</h2>
-      <p>This website is a project designed to provide information on The Times Top 50 Employers for Gender Equality in the UK, along with career resources.</p>
+    <div className="container my-4">
+      <div className="card shadow-sm">
+        <div className="card-body text-start">
+          <h2 className="card-title text-center mb-4">About Us / Contact Information</h2>
+          <p className="card-text">
+            This website is a project designed to provide information on The Times Top 50 Employers for Gender Equality in the UK, along with career resources.
+          </p>
 
-      <h3>Contact Information:</h3>
-      <ul>
-        <li><strong>Email:</strong> jianingzhang.zjn@gmail.com</li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jnz-uk" target="_blank" rel="noopener noreferrer">Click to connect</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/JianingZ-Janine" target="_blank" rel="noopener noreferrer">Click to view</a></li>
-      </ul>
+          <h3 className="mt-4 mb-3">Contact Information:</h3>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item"><strong>Email:</strong> your.email@example.com</li>
+            <li className="list-group-item">
+              <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-primary">Your LinkedIn Profile</a>
+            </li>
+            <li className="list-group-item">
+              <strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-primary">Your GitHub Profile</a>
+            </li>
+          </ul>
 
-      <p>Wish you the best luck in your job search!</p>
+          <p className="card-text mt-3">
+            Please replace the placeholder contact information with your actual details.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

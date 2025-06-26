@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import './App.css';
+import { Navbar, Nav, Container } from 'react-bootstrap'; // Import Bootstrap components
 import CompanyInfo from './CompanyInfo';
-import BehaviorQuestions from './BehaviorQuestions'; // Corrected import path
+import BehaviorQuestions from './BehaviorQuestions';
 import Insights from './Insights';
 import Events from './Events';
 import About from './About';
@@ -11,16 +12,22 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar">
-          <ul className="nav-list">
-            <li className="nav-item"><Link to="/">Company Info</Link></li>
-            <li className="nav-item"><Link to="/cv-library">CV Library</Link></li>
-            <li className="nav-item"><Link to="/behavior-questions">Behavior Questions</Link></li>
-            <li className="nav-item"><Link to="/insights">Insights</Link></li>
-            <li className="nav-item"><Link to="/events">Events</Link></li>
-            <li className="nav-item"><Link to="/about">About</Link></li>
-          </ul>
-        </nav>
+        <Navbar bg="dark" variant="dark" expand="lg">
+          <Container>
+            <Navbar.Brand as={Link} to="/">Top 50 Employers</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link as={Link} to="/">Company Info</Nav.Link>
+                <Nav.Link as={Link} to="/cv-library">CV Library</Nav.Link>
+                <Nav.Link as={Link} to="/behavior-questions">Behavior Questions</Nav.Link>
+                <Nav.Link as={Link} to="/insights">Insights</Nav.Link>
+                <Nav.Link as={Link} to="/events">Events</Nav.Link>
+                <Nav.Link as={Link} to="/about">About</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
 
         <Routes>
           <Route path="/" element={<CompanyInfo />} />
