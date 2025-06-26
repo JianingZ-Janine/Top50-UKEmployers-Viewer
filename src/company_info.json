@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Deloitte",
+    "linkedin": "https://www.linkedin.com/company/deloitte/",
+    "career_website": "https://www.deloitte.com/uk/en/pages/careers/overview/careers.html",
+    "edinburgh_office": "9 Haymarket Square, Edinburgh"
+  },
+  {
+    "company": "KPMG",
+    "linkedin": "https://www.linkedin.com/company/kpmg-uk/",
+    "career_website": "https://kpmg.com/uk/en/home/careers.html",
+    "edinburgh_office": "Saltire Court, 20 Castle Terrace, Edinburgh, EH1 2EG"
+  },
+  {
+    "company": "Aviva",
+    "linkedin": "https://www.linkedin.com/company/aviva/",
+    "career_website": "https://careers.aviva.co.uk/",
+    "edinburgh_office": "49 Queen Street, Edinburgh (Aviva Investors)"
+  },
+  {
+    "company": "A&O Shearman",
+    "linkedin": "https://www.linkedin.com/company/a&o-shearman/",
+    "career_website": "https://www.aoshearman.com/en/careers/",
+    "edinburgh_office": null
+  },
+  {
+    "company": "AB Agri",
+    "linkedin": "https://www.linkedin.com/company/ab-agri/",
+    "career_website": "https://abagri.com/careers",
+    "edinburgh_office": null
+  },
+  {
+    "company": "Addleshaw Goddard LLP",
+    "linkedin": "https://www.linkedin.com/company/addleshaw-goddard/",
+    "career_website": "https://www.addleshawgoddard.com/en/careers/",
+    "edinburgh_office": "Exchange Tower, 19 Canning Street, Edinburgh EH3 8EH, United Kingdom"
+  }
+]
